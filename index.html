@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editor de imágenes</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<h1>Editor de imágenes</h1>
+
+<input type="file" id="upload">
+
+<br><br>
+
+<button onclick="filtro('gris')">B/N</button>
+<button onclick="filtro('sepia')">Sepia</button>
+<button onclick="filtro('brillo')">Brillo</button>
+<button onclick="reset()">Reset</button>
+
+<br><br>
+
+<canvas id="canvas" width="800" height="500"></canvas>
+
+<script src="/static/js/script.js"></script>
+
+</body>
+</html>
